@@ -299,7 +299,8 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:gravity="center|bottom"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
 
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView_main"
